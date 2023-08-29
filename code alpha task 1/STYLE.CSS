@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/18122663/pexels-photo-18122663.png?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    background-color: rgba(250, 227, 57, 0);
+    background-blend-mode: multiply;
+    font-size: 1.1em;
+    font-family: 'poppins', sans-serif;
+}
+
+.heading {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#head {
+    font-size: 1.8em;
+}
+
+#subheading {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#content1 {
+    width: 90%;
+    margin: auto;
+}
+
+#content2 {
+    margin-top: 10px;
+}
+
+form {
+    background-color: rgb(0, 0, 0, 0.4);
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+}
+
+form .box1 {
+    width: 37.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+form .box {
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#option1 select {
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#option2 select {
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    top: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#content2 textarea {
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    bottom: 17px;
+}
+
+button {
+    width: 98.5%;
+    height: 3em;
+    position: relative;
+    top: 11px;
+    background-color: rgba(41, 18, 219, 0.778);
+    border: none;
+    color: rgb(255, 255, 2555);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+textarea::placeholder {
+    font-size: 1.4em;
+    position: relative;
+    top: 8px;
+    left: 5px;
+    width: 70%;
+}
+
+input::placeholder {
+    font-size: 1.1em;
+    position: relative;
+    left: 10px;
+    width: 50%;
+    font-weight: 500;
+}
+
+input .larger {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width:600px) {
+    form {
+        width: 100%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scaled=1,user-scalable=no" />
+    <title>Survey_Form</title>
+    <link rel="stylesheet" type="text/css" href="STYLE.CSS">
+    <style>
+        .label-container {
+            display: flex;
+            justify-content: space-between;
+            font-size: 15px;
+            inline-size: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h1 id="head">Survey Form of CODEALPHA</h1>
+        <h2 id="subheading"><i>Thank you for investing your time to fill the form</i></h2>
+    </div>
+    <form action="https://formsubmit.co/pasupuletilakshmideepthi531@gmail.com" method="POST">
+        <div id="content1">
+            <div class="label-container ">
+                <label>First Name </label><br><br>
+                <input type="fname" name="fname" placeholder="Enter your first Name" class="box1" size="10">
+                <label>Last Name</label><br><br>
+                <input type="lname" name="lname" placeholder="Enter your last Name" class="box1" size="10">
+            </div><br><br>
+            <label>Email</label><br><br>
+            <input type="email" name="email" id="email" placeholder="Enter your Email" class="box"><br><br>
+            <label>Age(optional)</label><br><br>
+            <input type="age" name="age" placeholder="Enter your Age" class="box"><br><br>
+            <label>How did you hear about us?</label><br><br>
+
+            <div id="option1">
+                <select>
+                    <option name="Select your Role">Select your Role</option>
+                    <option value="Recommended by Friend">Recommended by Friend</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Publication or Blog">Publication or Blog</option>
+                    <option value="Search Engine">Search Engine</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+            <br>
+            <label id="head1" name="Gender">Gender</label><br><br>
+            <input type="radio" name="Male" class="larger">&nbsp&nbsp&nbspMale<br><br>
+            <input type="radio" name="Female" class="larger">&nbsp&nbsp&nbspFemale<br><br>
+            <input type="radio" name="other" class="larger">&nbsp&nbsp&nbspother<br><br>
+            <label id="head1" name="How likely is that you would recommend CodeAlpha to a friend?">How likely is that
+                you would recommend CodeAlpha to a friend?</label><br><br>
+            <input type="radio" name="Definitely" class="larger">&nbsp&nbsp&nbspDefinitely<br><br>
+            <input type="radio" name="May be" class="larger">&nbsp&nbsp&nbspMay be<br><br>
+            <input type="radio" name="Not Sure" class="larger">&nbsp&nbsp&nbspNot Sure<br><br>
+            <label name="What is your favourite feature of Code Alpha ?">What is your favourite feature of Code Alpha
+                ?</label>
+            <div id="option2">
+                <select>
+                    <option name="Select an option">Select an option</option>
+                    <option value="Challenged">Challenged</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="Open Source">Open Source</option>
+                </select>
+            </div>
+            <br><br>
+            <label id="head2" name="What would you like to see improved ?(check all that apply)">What would you like to
+                see improved ?(check all that apply)</label>
+            <div id="content2">
+                <input type="checkbox" name="Frontend Projects" class="larger"><label> Frontend Projects</label><br><br>
+                <input type="checkbox" name="Backend Projects" class="larger"><label> Backend Projects</label><br><br>
+                <input type="checkbox" name="Python Development Projects" class="larger"><label> Python Development
+                    Projects</label><br><br>
+                <input type="checkbox" name="Java Development Projects" class="larger"><label> Java Development
+                    Projects</label><br><br>
+                <input type="checkbox" name="Machine Learning" class="larger"><label> Machine Learning</label><br><br>
+                <input type="checkbox" name="Artificial Intelligence" class="larger"><label> Artificial
+                    Intelligence</label><br><br>
+                <input type="checkbox" name="Deep Learning" class="larger"><label> Deep Learning</label><br><br>
+                <input type="checkbox" name="Block Chain" class="larger"><label> Block Chain</label><br><br>
+                <input type="checkbox" name="Internet of Things" class="larger"><label> Internet of
+                    Things</label><br><br>
+                <input type="checkbox" name="Cloud Computing" class="larger"><label> Cloud Computing</label><br><br>
+                <input type="checkbox" name="others" class="larger"><label> others </label><br><br>
+                <label class="head2" name="Any Comments or Suggestion">Any Comments or Suggestion</label><br><br>
+                <textarea name="Comment" placeholder="Enter your comment here......"></textarea><br><br>
+                <input type="hidden" name="_url" value="https://yourdomain.co/contact.html">
+                <button name="SUBMIT">
+                    <h3>SUBMIT</h3>
+                </button><br><br>
+            </div>
+    </form>
+</body>
+
+</html>
